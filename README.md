@@ -184,50 +184,49 @@ Performance
 Best Use Case  
 
 
-K-Means
+# K-Means
 
-
-# ✅ Good separation
+✅ Good separation
 
 
 Primary segmentation
 
 
-Hierarchical
+# Hierarchical
 
 
-# ✅ Clear hierarchy
+✅ Clear hierarchy
 
 
 Understanding relationships
 
 
-DBSCAN
+# DBSCAN
 
 
-# ⚠️ Over-segmented
+⚠️ Over-segmented
 
 
 Noise detection
 
 
-GMM
+# GMM
 
-# ✅ Probabilistic
+✅ Probabilistic
 
 
 Soft clustering
 
 
-Semi-Supervised
+# Semi-Supervised
 
 
-# ✅ Perfect match
+✅ Perfect match
 
 
 When labels available
 
-Cluster Characteristics
+# Cluster Characteristics
 
 
 The analysis identified distinct customer segments with varying:
@@ -245,7 +244,7 @@ Spending behaviors: High vs. low spending patterns
 Geographic/behavioral variables: Additional distinguishing factors
 
 
-Addressing Overfitting
+# Addressing Overfitting
 
 
 Problem Identification
@@ -263,7 +262,7 @@ Poor generalization to new data
 High variance in cluster assignments
 
 
-Solutions Implemented
+# Solutions Implemented
 
 
 Feature Selection: Reduced dimensionality to most relevant features
@@ -281,7 +280,7 @@ Ensemble Methods: Combined multiple clustering approaches
 Silhouette Optimization: Used silhouette scores to prevent over-clustering
 
 
-Final Model Selection
+# Final Model Selection
 
 
 Selected K-means with optimal K based on elbow method and silhouette analysis
